@@ -1,5 +1,7 @@
 /* GLOBAL */
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -90,6 +92,7 @@ fieldset {
     display: inline-block;
     text-align: center;
     margin: 10px 0.2em;
+    
 }
 
 .meter label input[type="radio"] {
@@ -98,8 +101,21 @@ fieldset {
 }
 
 .checked {
-    
+
 }
+
+.meter input[type=radio]:checked+label {
+    background-color: red;
+    font-weight: bold;
+}
+
+/* label > input[type="radio"]:checked + *::before {
+  background: radial-gradient(teal 0%, teal 40%, transparent 50%, transparent);
+  border-color: teal;
+}
+label > input[type="radio"]:checked + * {
+  color: teal;
+} */
 
 .thermometer { 
     width: 700px;
@@ -113,4 +129,41 @@ fieldset {
     width: 10px;
     border-radius: 50%;
     border: 1px solid black;
+}
+
+/* MAIN CONTENT */
+.content__container {
+    background-color: rgb(0,0,0);
+    position: relative;
+    padding: 55px;
+}
+
+#container__notch {
+    background-color: rgb(255,255,255);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: rotate(45deg);
+}
+
+.banner {
+    background-color: rgb(165,166,167);
+}
+
+.banner__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: inherit;
+    border: 2px solid rgb(0,0,0);
+    border-radius: 25px;
+    margin: 10px 0;
+    padding: 5px 10px;
 }
