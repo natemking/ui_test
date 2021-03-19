@@ -135,7 +135,7 @@ label > input[type="radio"]:checked + * {
 .content__container {
     background-color: rgb(0,0,0);
     position: relative;
-    padding: 55px;
+    padding: 55px 150px;
 }
 
 #container__notch {
@@ -143,27 +143,76 @@ label > input[type="radio"]:checked + * {
     height: 20px;
     width: 20px;
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 50%;
     transform: rotate(45deg);
 }
 
 .banner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+     padding: 30px;
+}
+
+.banner p {
+    margin: 10px 0;
+    line-height: 1.5em;
+}
+
+.banner-gray {
     background-color: rgb(165,166,167);
+}
+
+.banner-blue {
+    background-color: rgb(38, 140, 195);
+    color: rgb(255,255,255);
 }
 
 .banner__row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 900px;
-    margin: 0 auto;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.banner__container-inner{
+    margin-right: 30px;
+}
+
+#banner1, #banner2 {
+    width: 40em;
+    display: flex;
+    align-items: center;
+}
+
+#banner2 {
+    height: 100%;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.banner__row img {
+    height: 50px;
+    align-self: center;
+}
+
+#banner2 img {
+    position: relative;
+    top: 80px;
+    left: 120px;
 }
 
 .btn {
     background-color: inherit;
+    color: inherit;
     border: 2px solid rgb(0,0,0);
     border-radius: 25px;
-    margin: 10px 0;
     padding: 5px 10px;
+    margin-bottom: 40px;
+}
+
+.btn-white {
+    border: 2px solid rgb(255,255,255);
 }
