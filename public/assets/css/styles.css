@@ -152,7 +152,20 @@ label > input[type="radio"]:checked + * {
     display: flex;
     flex-direction: row;
     position: relative;
-     padding: 30px;
+    padding: 40px;
+}
+
+.banner__cornerfold {
+    /* height: 15px;
+    width: 15px;
+    background-color: rgba(0,0,0,.5); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid rgba(0,0,0,.5);
+    border-left: 20px solid rgb(0,0,0);
 }
 
 .banner p {
@@ -190,7 +203,6 @@ label > input[type="radio"]:checked + * {
 #banner2 {
     height: 100%;
     flex-direction: row-reverse;
-    position: relative;
 }
 
 .banner__row img {
@@ -202,6 +214,12 @@ label > input[type="radio"]:checked + * {
     position: relative;
     top: 80px;
     left: 120px;
+}
+
+#banner3 img {
+   height: 200px; 
+   position: relative;
+   right: 50px;
 }
 
 .btn {
