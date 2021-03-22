@@ -68,6 +68,11 @@ _Mobile design example_
 _My Mobile Final Page_
 
 ![mobile final](./assets/images/mobile-final.png)
+
+### Notes
+
+To meet the criteria of this challenge I was to make the replica w/in 24 hours of starting. I started this on a Friday afternoon at about 3:30pm and worked till the late evening. I then picked it back up the following Monday morning and stopped working on the main code around 3:30pm. I was not able to get the radio buttons customized nor get the extra credit done. 
+
 ---
 
 GitHub: [@natemking](https://github.com/natemking/)
