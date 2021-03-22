@@ -1,14 +1,10 @@
 const listEl = document.querySelector('ul');
+const thermometerEl = document.querySelector('.thermometer');
+const mercuryEl = document.querySelector('.mercury');
+
 const url = window.location.href;
-const darkBlue = 'rgb(38, 140, 195)'
-const lightBlue = 'rgb(148, 207, 138)'
-
-listEl.addEventListener('click', (e) => {
-    e.preventDefault();
-    // console.log(e.target);
-
-    console.log(url.match(/index/gi));
-})
+const darkBlue = 'rgb(38, 140, 195)';
+const lightBlue = 'rgb(148, 207, 238)'
 
 
 /**
@@ -31,3 +27,17 @@ switch (true) {
     default:
         break;
 }
+
+
+/**
+ * Slider
+ * 
+ */
+mercuryEl.setAttribute('id', 'mercury');
+
+for (let i = 1; i <= 3; i++) {
+    let mercuryElClone = mercuryEl.cloneNode(true);
+    mercuryElClone.setAttribute('id', `mercury-clone${i}`);
+    thermometerEl.append(mercuryElClone);
+}
+
