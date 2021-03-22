@@ -41,13 +41,33 @@ This repo is a test that a department at comcast used to give potential new hire
 
 ## Screenshots
 
+_My functionality_
+
+![ui_test gif](assets/images/ui-test.gif)
+
 _Desktop design example_
 
 ![desktop design example](./assets/design_examples/desktop.jpg)
 
 _My Desktop Final Page_
 
-![desktop final](./assets/images/desktop_final.png)
+![desktop final](./assets/images/desktop-final.png)
+
+_Tablet design example_
+
+![tablet design example](./assets/design_examples/tablet.jpg)
+
+_My Tablet Final Page_
+
+![tablet final](./assets/images/tablet-final.png)
+
+_Mobile design example_
+
+![mobile design example](./assets/design_examples/mobile.jpg)
+
+_My Mobile Final Page_
+
+![mobile final](./assets/images/mobile-final.png)
 ---
 
 GitHub: [@natemking](https://github.com/natemking/)

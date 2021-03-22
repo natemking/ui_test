@@ -274,6 +274,11 @@ fieldset {
         margin: 10px 10px 0 0;
     }
 
+    #banner3 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
     #banner2 img {
         position: relative;
         left: 0px;
@@ -324,7 +329,7 @@ fieldset {
         margin-right: 10px;
     }
 
-     #banner1, #banner2, #banner3 {
+    #banner1, #banner2, #banner3 {
         width: 100%;
         margin: 10px auto;
     }
