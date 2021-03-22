@@ -6,7 +6,7 @@ Old UI test from a Comcast dept
 ![javascript badge](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
 
 ## Description
-This repo is a test that a department at comcast used to give potential new hires to complete. The challenge is to create the page from scratch as per the instructions below. The slider must be fully functional and the page mobile responsive. 
+This repo is an old test that a department at comcast used to give potential new hires to complete. The challenge is to create the page from scratch as per the instructions below within 24 hours of beginning. The slider must be fully functional and the page mobile responsive. 
 
 ## Instructions
 
