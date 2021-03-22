@@ -69,7 +69,7 @@ fieldset {
     letter-spacing: .5em;
 }
 
-/* FORM */
+/* Slider */
 .form__container {
     text-align: center;
     padding: 40px 0;
@@ -260,7 +260,7 @@ fieldset {
     border: 2px solid rgb(255,255,255);
 }
 
-@media (max-width: 768px){
+@media (max-width: 1200px){
 
     .content__container {
         padding: 55px 15px;
@@ -277,9 +277,90 @@ fieldset {
     #banner2 img {
         position: relative;
         left: 0px;
+        bottom: 0px;
     }
 
     #banner3 img {
         right: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    /* Navbar */
+    .nav__ul {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .nav__li{
+        padding: 5px 10px;
+        border-bottom: none;
+    }
+
+    /* Slider */
+    .meter {
+        width: 95%;
+    }
+
+    .thermometer {
+        width: 100%;
+        
+    }
+
+    #mercury {
+        left: 0px;
+        width: 12%;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        background-color: rgb(148, 207, 238);
+    }
+
+    #mercuryClone1 {
+        left: 12%;
+        width: 24.5%;
+    }
+
+    #mercuryClone2 {
+        left: 36.5%;
+        width: 24%;
+    }
+
+    #mercuryClone3 {
+        left: 60.5%;
+        width: 25%;
+    }
+
+    .slider {
+        display: none;
+    }
+    
+    /* Main Content */
+    .content__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .banner__row {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .banner__container-inner{
+        margin-right: 10px;
+    }
+
+     #banner1, #banner2, #banner3 {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    #banner2 img {
+        top: 50px;
+    }
+
+    #banner3 img {
+        height: 50px;
     }
 }
