@@ -97,8 +97,8 @@ fieldset {
   margin: 0.5em auto;
 }
 
-.meter input[type=radio]:checked+label {
-    background-color: red;
+.checked {
+    color:rgb(38, 140, 195);
     font-weight: bold;
 }
 
@@ -118,25 +118,25 @@ fieldset {
 
 #mercury {
     left: 0px;
-    width: 85px;
+    width: 12.3%;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: rgb(148, 207, 238);
 }
 
 #mercuryClone1 {
-    left: 85px;
-    width: 170px;
+    left: 12.3%;
+    width: 24.7%;
 }
 
 #mercuryClone2 {
-    left: 255px;
-    width: 170px;
+    left: 37%;
+    width: 24%;
 }
 
 #mercuryClone3 {
-    left: 425px;
-    width: 178px;
+    left: 61%;
+    width: 25.5%;
 }
 
 .mercuryFilled {
@@ -261,7 +261,7 @@ fieldset {
 }
 
 @media (max-width: 1200px){
-
+    /* Main Content */
     .content__container {
         padding: 55px 15px;
     }
@@ -306,34 +306,7 @@ fieldset {
         width: 100%;
         
     }
-
-    #mercury {
-        left: 0px;
-        width: 12%;
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
-        background-color: rgb(148, 207, 238);
-    }
-
-    #mercuryClone1 {
-        left: 12%;
-        width: 24.5%;
-    }
-
-    #mercuryClone2 {
-        left: 36.5%;
-        width: 24%;
-    }
-
-    #mercuryClone3 {
-        left: 60.5%;
-        width: 25%;
-    }
-
-    .slider {
-        display: none;
-    }
-    
+  
     /* Main Content */
     .content__container {
         display: flex;
