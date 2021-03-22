@@ -46,6 +46,7 @@ _Desktop design example_
 ![desktop design example](./assets/design_examples/desktop.jpg)
 
 _My Desktop Final Page_
+
 ![desktop final](./assets/images/desktop_final.png)
 ---
 
