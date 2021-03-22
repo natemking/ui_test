@@ -7,12 +7,8 @@
     margin: 0;
 }
 
-html {
-	font-size: .8em;
-}
-
 body {
-	font-size: 100%;
+    font-size: .8em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -194,7 +190,8 @@ fieldset {
 
 .banner p {
     margin: 10px 0;
-    line-height: 1.5em;
+    font-size: calc(.5em + 0.5vw);
+    line-height: calc(1.1em + 0.5vw);
 }
 
 .banner-gray {
@@ -219,7 +216,7 @@ fieldset {
 }
 
 #banner1, #banner2 {
-    width: 40em;
+    width: 48%;
     display: flex;
     align-items: center;
 }
@@ -245,7 +242,7 @@ fieldset {
 }
 
 #banner3 img {
-   height: 200px; 
+   height: 150px; 
    position: relative;
    right: 50px;
 }
@@ -261,4 +258,28 @@ fieldset {
 
 .btn-white {
     border: 2px solid rgb(255,255,255);
+}
+
+@media (max-width: 768px){
+
+    .content__container {
+        padding: 55px 15px;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+
+    .banner__container-inner {
+        margin: 10px 10px 0 0;
+    }
+
+    #banner2 img {
+        position: relative;
+        left: 0px;
+    }
+
+    #banner3 img {
+        right: 0px;
+    }
 }
