@@ -1,8 +1,12 @@
 # UI Test
 Old UI test from a Comcast dept
 
+![html5 badge](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=flat&logo=html5&logoColor=white)
+![css3 badge](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=flat&logo=css3&logoColor=white)
+![javascript badge](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
+
 ## Description
-This repo is a test that a department at comcast used to give potential new hires to complete.
+This repo is a test that a department at comcast used to give potential new hires to complete. The challenge is to create the page from scratch as per the instructions below. The slider must be fully functional and the page mobile responsive. 
 
 ## Instructions
 
@@ -31,8 +35,20 @@ This repo is a test that a department at comcast used to give potential new hire
 - In a text document, inside the HTML folder, note any questions and assumptions you have when building the design
 
 
-
 ***** NOT REQUIRED - EXTRA CREDIT *****
 
 - Every banner component has an info bubble that appears when hovering over the learn more button, and a pop out drawer that opens from the bottom of the banner when clicking on the learn more button. These interactions occur at all breakpoint sizes.
 
+## Screenshots
+
+_Desktop design example_
+
+![desktop design example](./assets/design_examples/desktop.jpg)
+
+_My Desktop Final Page_
+![desktop final](./assets/images/desktop_final.png)
+---
+
+GitHub: [@natemking](https://github.com/natemking/)
+
+Email: [natmeking@gmail.com](mailto:natmeking@gmail.com)
