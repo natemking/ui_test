@@ -18,7 +18,7 @@ const darkBlue = 'rgb(38, 140, 195)';
  * depending on the page displayed
  */
 switch (true) {
-    case (/index/gi).test(url):
+    case ((/index/gi).test(url) || (/ui_test/gi).test(url)):
         listEl.children[0].setAttribute('style', `color: ${darkBlue}; border: 2px solid ${darkBlue}`)
         break;
     case (/about/gi).test(url):
